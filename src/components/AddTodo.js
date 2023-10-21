@@ -14,14 +14,16 @@ const AddTodo = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     addTodoAction(title);
+    setTitle("");
   };
   return (
-    <>
+    <div className="form-wrapper">
+      <h1>TASK PLANNER</h1>
       <form onSubmit={handleSubmit}>
         <input value={title} onChange={handleTitleChange} />
         <button type="submit">Add Todo</button>
       </form>
-    </>
+    </div>
   );
 };
 

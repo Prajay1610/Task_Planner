@@ -5,8 +5,12 @@ form {
   margin: 10px;
   border-radius: 5px;
   height: 100px;
-  background: #fff;
+  background-color: rgba(119, 155, 187, 0.959);
+  /* background: #fff; */
 }
+/* form input:focus {
+  border: 2px solid green !important;
+} */
 
 form input {
   border: 1px solid #ccc;
@@ -18,4 +22,13 @@ form button {
   border-radius: 5px;
   padding: 10px;
   margin-left: 10px;
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 600;
+  background-color: rgb(149, 198, 75);
+}
+
+.form-wrapper h1 {
+  text-align: center;
+  color: rgb(158, 81, 230);
 }
